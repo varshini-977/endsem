@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>My Personal Portfolio</h1>
+        <p>Welcome to my portfolio website!</p>
+    </header>
+
+    <section>
+        <h2>My Profile</h2>
+
+        <img id="profile"
+        src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300"
+        alt="Profile Picture">
+
+        <br>
+
+        <button onclick="changeImage()">Change Image</button>
+    </section>
+
+    <section>
+        <h2>About Me</h2>
+
+        <p id="about">
+            Hello! I am a student interested in web development.
+            I love learning HTML, CSS and JavaScript.
+        </p>
+
+        <button onclick="toggleAbout()">Show / Hide About</button>
+    </section>
+
+    <section>
+        <h2>My Skills</h2>
+
+        <div class="skills">
+            <div>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
+                <p>HTML</p>
+            </div>
+
+            <div>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
+                <p>CSS</p>
+            </div>
+
+            <div>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+                <p>JavaScript</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>My Education</h2>
+
+        <img class="education"
+        src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=500"
+        alt="College">
+
+        <p>Currently pursuing my graduation.</p>
+    </section>
+
+    <section>
+        <h2>My Projects</h2>
+
+        <img class="education"
+        src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500"
+        alt="Coding Project">
+
+        <p>Personal Portfolio Website</p>
+    </section>
+
+    <section>
+        <h2>Event Tracking</h2>
+
+        <h3 id="count">Total Clicks: 0</h3>
+
+        <p id="event">No events yet</p>
+
+        <button onclick="resetEvents()">Reset Events</button>
+    </section>
+
+    <footer>
+        <p>Thank you for visiting my portfolio!</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
